@@ -56,5 +56,6 @@ function mouseReleased() {
   s3.stop();
   state++;
   if (state > 2) state = 0;
-
 }
+
+///hope this works
