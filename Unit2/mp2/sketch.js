@@ -119,7 +119,7 @@ function draw() {
         myState = 4;
       }
       timer++;
-      if (timer > 48) {
+      if (timer > 100) {
         myState = 0;
         timer = 0;
       }
