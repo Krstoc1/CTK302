@@ -6,12 +6,12 @@ let s1, s2, s3, s4, s5 ;
 
 function preload () {
   
-  s1= loadImage("aset/fors.png");
-  s2= loadImage("aset/start.png");
-  s3= loadImage("aset/lose.png");
-  s4= loadImage("aset/ogar.png");
-  s5= loadImage("aset/you.png");
-  s6= loadImage("aset/win.png");
+  s1= loadImage("aset/fors.jpg");
+  s2= loadImage("aset/start.jpg");
+  s3= loadImage("aset/lose.jpg");
+  s4= loadImage("aset/ogar.jpg");
+  s5= loadImage("aset/you.jpg");
+  s6= loadImage("aset/win.jpg");
 }
 function setup() {
   createCanvas(1080, 720);
