@@ -12,7 +12,7 @@ var frogPos;
 
 function preload () {
   
-  s1= loadImage("aset/pxArt.png");
+  s1= loadImage("aset/el.PNG");
   s2= loadImage("aset/z.png");
 }
 
