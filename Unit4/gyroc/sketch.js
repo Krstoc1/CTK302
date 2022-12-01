@@ -81,8 +81,8 @@ function draw() {
   }
 
   function game() {
-    background(s1);
-  }
+   
+  
   // move the frog around the screen
   push(); // before you use translate, rotate, or scale commands, push and then pop after
   translate(xPosition, yPosition); // move everything over by x, y
@@ -97,7 +97,7 @@ function draw() {
   // update the frog's position using the accelerometer data
   frogPos.x = xPosition;
   frogPos.y = yPosition;
-
+  
   // iterate through the car loop to move them and see if we need to delete cars
   for (var i = 0; i < cars.length; i++) {
     cars[i].display();
@@ -106,7 +106,7 @@ function draw() {
       cars.splice(i, 1);
     }
   }
-
+}
   // MORE DECORATIONS - write that pretty ATK type on top.
   fill('White');
   textSize(40);
@@ -131,7 +131,7 @@ function draw() {
   text("y = " + y, 25, 170);
   text("z = " + z, 25, 190);
 
-  
+
 }
 
 function mouseReleased() {
@@ -150,8 +150,8 @@ function mouseReleased() {
       state = 0;
       break;
   }
-}
 
+}
 function deviceShaken() {
   // re-spawn cars
   cars = []; // clear the array first
