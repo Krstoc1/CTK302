@@ -41,7 +41,7 @@ function setup() {
 
   // load any images you need
   //bunnyImage = loadImage("assets/bunny.jpg");
-  imageMode(CENTER);
+  //imageMode(CENTER);
   rectMode(CENTER);
   noStroke();
 }
