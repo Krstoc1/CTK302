@@ -17,8 +17,9 @@ function preload () {
   
   s1= loadImage("aset/el.PNG");
   s2= loadImage("aset/rat.PNG");
-  s3= loadImage("aset/Cat03.jpg");
+  s3= loadImage("aset/sta.PNG");
   s4= loadImage("aset/flo.PNG");
+  s5= loadImage("aset/win.PNG");
 }
 
 function setup() {
@@ -48,7 +49,7 @@ function setup() {
 
 function draw() {
 
-  background('#c6f5ff'); // light blue
+  background(s4); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -58,7 +59,7 @@ function draw() {
 
   switch (state) {
     case 0: // menu
-      background("s3");
+    background(s3);
       break;
   
 
@@ -73,11 +74,11 @@ function draw() {
     break;
 
     case 2: // win
-    background(s3);
+    background(s5);
     break;
 
   case 3: // lose
-    background(s3);
+    background(s5);
   
     break;
   }
