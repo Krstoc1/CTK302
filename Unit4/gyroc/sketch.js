@@ -17,6 +17,8 @@ function preload () {
   
   s1= loadImage("aset/el.PNG");
   s2= loadImage("aset/rat.PNG");
+  s3= loadImage("aset/Cat03.jpg");
+  s4= loadImage("aset/flo.PNG");
 }
 
 function setup() {
@@ -56,7 +58,7 @@ function draw() {
 
   switch (state) {
     case 0: // menu
-      background("green");
+      background("s3");
       break;
   
 
@@ -71,7 +73,7 @@ function draw() {
     break;
 
     case 2: // win
-    background(s6);
+    background(s3);
     break;
 
   case 3: // lose
